@@ -1,6 +1,4 @@
 """
-pgm no 156
-
      *
     ***
    *****
@@ -11,8 +9,9 @@ pgm no 156
   *******
    *****
     ***
-     * print the pattern
+     * print the pattern using for loop
 """
+print("print the pattern using for loop")
 j=1
 m=9
 for i in range(6,0,-1):

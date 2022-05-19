@@ -1,13 +1,13 @@
 """
-pgm no 158
       *
      * *
     *   *
    *     *
   *       *
  *         *
-* * * * * * * print the pattern
+* * * * * * * print the pattern using for loop
 """
+print("print the pattern using for loop")
 print(' '*6+'*')
 j=5
 m=1
