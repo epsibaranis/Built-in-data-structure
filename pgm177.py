@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-pgm no 177
-Created on Mon Jan 10 16:15:14 2022
-covert all the uppercase letter to lowercase in a given text
-@author: tt
-"""
+#covert all the uppercase letter to lowercase in a given text
 s1=input('s1=?')
 l=len(s1)
 s2=''
@@ -17,4 +11,4 @@ for i in range(l):
     else:
         b=chr(d)
         s2=s2+b
-print(s2)
+print("covert all the uppercase letter to lowercase in a given text",s2)

@@ -4,6 +4,7 @@ n=int(input('n=?'))
 for i in range(n):
     x=input('x=?')
     a.append(x)
-print(a)
+print("list of n elements",a)
+print("print it element by elemen")
 for i in a:
     print(i)
