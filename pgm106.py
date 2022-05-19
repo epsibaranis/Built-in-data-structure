@@ -7,6 +7,7 @@ while i<n:
     a.append(x)
     i=i+1
 m=0
+print("print the list element by element")
 while m<n:
     print (a[m])
     m=m+1

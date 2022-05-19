@@ -6,6 +6,7 @@ while i<n:
     x=int(input('x=?'))
     a.append(x)
     i+=1
+print("Before Interchanging the list",a)
 i=0
 b=0
 s=9999999999
@@ -19,4 +20,4 @@ while i<n:
     i+=1
 a[p1]=s
 a[p2]=b
-print(a)
+print("Interchange the biggest and the smallest element in the list",a)

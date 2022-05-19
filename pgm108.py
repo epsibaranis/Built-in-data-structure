@@ -6,11 +6,11 @@ while i<n:
     x=int(input('x=?'))
     a.append(x)
     i=i+1
+print("list",a)
 m=0
 s=0
 while m<n:
     a[m]
     s=s+a[m]
     m=m+1
-print(s)
-
+print("sumof the element in the list:",s)

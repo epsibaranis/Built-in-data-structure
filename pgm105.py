@@ -6,4 +6,4 @@ while i<n:
     x=int(input('x=?'))
     a.append(x)
     i=i+1
-print(a)
+print("list of ten elements",a)

@@ -6,6 +6,7 @@ while i<n:
     x=int(input('x=?'))
     a.append(x)
     i+=1
+print("list",a)
 b=0
 s=9999999999
 i=0
@@ -17,7 +18,7 @@ while i<n:
         s=a[i]
         q=i
     i+=1
-print(p,'The Biggest element index')
-print (q,'The Smallest element index')
+print('The Biggest element index',p)
+print('The Smallest element index',q)
 
 
