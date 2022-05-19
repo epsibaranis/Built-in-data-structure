@@ -12,7 +12,7 @@ while i<n:
         r+=1
     b.append(a)
     i+=1
-print(b)
+print("n*n matrix",b)
 i=0
 s=0
 while i<n:
@@ -22,8 +22,3 @@ while i<n:
         j+=1
     i+=1
 print('Sum of the matrix element=',s)
-
-
-
-
-

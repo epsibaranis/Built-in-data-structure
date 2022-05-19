@@ -12,4 +12,4 @@ while i<n:
         r+=1
     b.append(a)
     i+=1
-print(b)
+print("list of n by n matrix",b)

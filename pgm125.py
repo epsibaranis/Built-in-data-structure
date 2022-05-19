@@ -12,7 +12,7 @@ while i<n:
         r+=1
     b.append(a)
     i+=1
-print(b)
+print("n*n matrixes",b)
 i=0
 c=[]
 while i<n:
@@ -24,12 +24,3 @@ while i<n:
     c.append(s)
     i+=1
 print('The list has the sum of rows in n by n matrix=',c)
-
-
-
-
-
-
-
-
-

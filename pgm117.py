@@ -7,6 +7,7 @@ while i<n:
     x=random.randint(-100,100)
     a.append(x)
     i+=1
+print("list",a)
 i=0
 x=0
 y=0
@@ -20,6 +21,6 @@ while i<n:
         z=z+1
     i+=1
 print(a)
-print(x,'Number of positive number')
-print(y,'Number of Negative number')
-print(z,'Number of zeroes')
+print('Number of positive number',x)
+print('Number of Negative number',y)
+print('Number of zeroes',z)

@@ -12,7 +12,8 @@ while i<n:
         r+=1
     b.append(a)
     i+=1
-print(b)
+print("n*n matrix",b)
+print("list of n by n element print in tranfers")
 i=0
 while i<n:
     j=0
@@ -21,8 +22,3 @@ while i<n:
         j+=1
     i+=1
     print()
-
-
-
-
-

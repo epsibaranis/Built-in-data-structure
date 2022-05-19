@@ -13,7 +13,7 @@ while i<n:
     b.append(a)
     i+=1
 i=0
+print("List of n by n matrix print it row by row")
 while i<n:
     print (b[i])
     i+=1
-

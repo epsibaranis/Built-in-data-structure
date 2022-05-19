@@ -12,7 +12,7 @@ while i<n:
         r+=1
     b.append(a)
     i+=1
-print(b)
+print("n*n matrix",b)
 i=0
 c=0
 while i<n:
@@ -23,10 +23,3 @@ while i<n:
         j+=1
     i+=1
 print('The Biggest element in the n by n matrix=',c)
-
-
-
-
-
-
-
