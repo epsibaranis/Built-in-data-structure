@@ -25,12 +25,3 @@ while i<n:
     c.append(d)
     i+=1
 print('The list of a row big in n by n matrix=',c)
-
-
-
-
-
-
-
-
-

@@ -21,4 +21,4 @@ while i<n:
         s=s+b[j][i]
         j+=1
     print('Sum of the elements in a row of n by n matrix',s)
-    i+=1
+    i+=1 

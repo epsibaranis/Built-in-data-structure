@@ -23,4 +23,4 @@ while i<n:
         j+=1
     c.append(s)
     i+=1
-print('The list has the sum of rows in n by n matrix=',c)
+print('The list has the sum of rows in n by n matrix=',c) 

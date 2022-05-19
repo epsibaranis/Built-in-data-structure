@@ -21,4 +21,4 @@ while i<n:
         s=s+b[j][i]
         j+=1
     i+=1
-print('Sum of the matrix element=',s)
+print('Sum of the matrix element=',s) 
