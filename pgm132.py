@@ -16,6 +16,7 @@ while i<n:
     a.append(e)
     b.append(a)
     i+=1
+print("List of n students Bio-data Print the Bio-data one by one")
 i=0
 while i<n:
     j=0
@@ -23,5 +24,3 @@ while i<n:
             print(b[i][j])
             j+=1
     i+=1
-
-

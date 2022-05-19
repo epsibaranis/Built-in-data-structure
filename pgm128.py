@@ -43,16 +43,3 @@ while i<n:
     e.append(f)
     i+=1
 print('Product of two n by n maririx= ',e)
-
-
-
-
-
-
-
-
-
-
-
-
-

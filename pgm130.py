@@ -16,4 +16,4 @@ while i<n:
        a.append(e)
        b.append(a)
        i+=1
-print('List of students Bio-data: ',b)
+print('List of students Bio-data:',b)

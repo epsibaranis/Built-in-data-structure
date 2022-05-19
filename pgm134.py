@@ -16,13 +16,11 @@ while i<n:
     a.append(e)
     b.append(a)
     i+=1
+print("Display the names and email id's who are living in kosavapattiin list of n-elements")
+n=int(input('n=?'))
 i=0
 while i<n:
      if b[i][3]=='kosavapatti':
          print('Name   : ',b[i][0])
          print('Emailid: ',b[i][4])          
      i+=1
-
-
-
-

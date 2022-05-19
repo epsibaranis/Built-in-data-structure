@@ -16,9 +16,8 @@ while i<n:
     a.append(e)
     b.append(a)
     i+=1
+print("List of N students biodata Person by person")
 i=0
 while i<n:
     print(b[i])
     i+=1
-
-
