@@ -13,8 +13,6 @@ for i in range(n):
         b+=1
     else:
         c+=1
-print('Numbers of positive number=',a)
+print('Numbers of positive number',a)
 print('Numbers of Negative numbers',b)
 print('Numbers of Zeroes',c)
-    
-

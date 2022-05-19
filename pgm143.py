@@ -8,7 +8,5 @@ for i in range(n):
     print(x)
     b=x if x>b else b
     s=x if x<s else s
-print('Biggest of n random numbers',b)
-print('Smallest of n random numbers',s)
-    
-
+print('Biggest of n random number',b)
+print('Smallest of n random number',s)

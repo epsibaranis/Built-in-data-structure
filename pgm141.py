@@ -6,5 +6,4 @@ for i in range(10):
     s=s+n
     y=y+1
 a=s/y
-print(a)
-
+print("Mean of 10 Numbers",a)
