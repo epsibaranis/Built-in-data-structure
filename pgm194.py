@@ -8,7 +8,7 @@ for ib in range (n):
         x=random.randint(0,10)
         a.append(x)
     b.append(a)
-print(b)
+print("first n*n matrix",b)
 d=[]
 for i in range (n):
     c=[]
@@ -16,7 +16,7 @@ for i in range (n):
         x=random.randint(0,10)
         c.append(x)
     d.append(c)
-print(d)
+print("second n*n matrix",d)
 f=[]
 for i in range(n):
     e=[]
@@ -26,5 +26,4 @@ for i in range(n):
             q=q+b[i][k]*d[k][j]
         e.append(q)
     f.append(e)
-print(f)
-
+print("product of two n by n matrixes",f)

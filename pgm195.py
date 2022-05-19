@@ -14,9 +14,7 @@ for i in range(n):
     a.append(d)
     a.append(e)
     b.append(a)
-print(b)
+print("n-students biodata",b)
+print("print it person by person")
 for i in b:
     print(i)
-    
-
-

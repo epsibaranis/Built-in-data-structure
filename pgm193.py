@@ -8,7 +8,7 @@ for ib in range (n):
         x=random.randint(0,10)
         a.append(x)
     b.append(a)
-print(b)
+print("first n*n matrix",b)
 d=[]
 for i in range (n):
     c=[]
@@ -16,7 +16,7 @@ for i in range (n):
         x=random.randint(0,10)
         c.append(x)
     d.append(c)
-print(d)
+print("Second n*n matrix",d)
 f=[]
 for i in range(n):
     e=[]
@@ -25,4 +25,3 @@ for i in range(n):
         e.append(g)
     f.append(e)
 print('sum of a and b matrixes=',f)
-    
