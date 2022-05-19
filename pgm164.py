@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-pgm no 164
-Created on Sun Jan  9 19:43:31 2022
-Read the string and it is polyndrome or not
-@author: tt
-"""
+#Read the string and it is polyndrome or not
 a=input('a=?')
 b=''
 l=len(a)

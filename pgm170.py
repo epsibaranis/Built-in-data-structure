@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-pgm no 170
-Created on Mon Jan 10 09:14:27 2022
-Delete all the vowels in a string
-@author: tt
-"""
+# Delete all the vowels in a string
 s1=input('s1=?')
 s2=''
 l=len(s1)
@@ -13,8 +7,4 @@ for i in range(l):
       pass
   else:
       s2=s2+s1[i]
-print(s2)
-
-
-
-
+print("Delete all the vowels in a string from a string:",s2)

@@ -1,15 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-pgm no 168
-Created on Mon Jan 10 09:06:09 2022
-copy n-character from mth position
-@author: tt
-"""
+#copy n-character from mth position
 s1=input('s1=?')
 m=int(input('m=?'))
 n=int(input('n=?'))
 s2=''
 s2=s1[m-1:n]
-print(s2)
-
-
+print("copy n-character from mth position in a string:",s2)

@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-pgm no 161
-Created on Sun Jan  9 19:10:04 2022
-No of upper,lower, digit and special character
-@author: tt
-"""
+# No of upper,lower, digit and special character using for loop
 n=input('n=')
 z=len(n)
 u=0
@@ -12,6 +6,7 @@ l=0
 d=0
 e=0
 s=0
+print("No of upper,lower, digit and special character using for loop")
 for i in range(z):
      if n[i].isupper():
          u+=1

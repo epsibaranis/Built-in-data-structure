@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-pgm no 167
-Created on Mon Jan 10 09:03:46 2022
-n-character from the end
-@author: tt
-"""
+# n-character from the end
 s1=input('s1=?')
 n=int(input('n=?'))
 s2=''
