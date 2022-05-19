@@ -9,7 +9,7 @@ for ib in range (n):
         x=random.randint(0,10)
         a.append(x)
     b.append(a)
-print(b)
+print("n*n matrixes",b)
 s=0
 d=0
 c=11

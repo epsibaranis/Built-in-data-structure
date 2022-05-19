@@ -9,7 +9,8 @@ for ib in range (n):
         x=random.randint(0,10)
         a.append(x)
     b.append(a)
-print(b)
+print("n*n matrixes",b)
+print("tranfers the n by n matrix")
 for i in range(n):
     for j in range(n):
         print(b[j][i],end=' ')

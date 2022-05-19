@@ -1,4 +1,4 @@
-# index in the biggest and smallest element in the list
+# index of the biggest and smallest element in the list
 import random
 a=[]
 n=int(input('n=?'))
@@ -10,8 +10,7 @@ b=max(a)
 s=min(a)
 p1=a.index(b)
 p2=a.index(s)
-print(b)
-print(s)
-print(p1)
-print|(p2)
-           
+print("Biggest element in the list:",b)
+print("smallest element in the list:",s)
+print("Index of the Biggest Element",p1)
+print("Index of the smallest Element",p2)

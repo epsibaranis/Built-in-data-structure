@@ -13,5 +13,5 @@ for i in range(n):
     for j in b:
        p1=i if a[i]>b[j] else j
        p2=i if a[i]<a[j] else j
-print(p1)
-print(p2)
+print("index of the biggest element",p1)
+print("index of the smallest element",p2)

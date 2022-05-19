@@ -11,5 +11,5 @@ print(a)
 for i in a:
     b=i if i>b else b
     s=i if i<s else s
-print(b)
-print(s)
+print("Biggest element in the list",b)
+print("Smallest element in the list",s)

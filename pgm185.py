@@ -8,7 +8,7 @@ n=int(input('n=?'))
 for i in range(n):
     x=int(input('x=?'))
     a.append(x)
-print(a)
+print("Before Interchanging:",a)
 for i in range(n):
     b=a[i] if a[i]>b else b
     s=a[i] if a[i]<s else s
@@ -17,5 +17,5 @@ for i in range(n):
     p2=i if a[i]<a[p2] else p2 
 a[p1]=s
 a[p2]=b
-print(a)
+print("Interchange of the biggest and smallest number in the list",a)
 
