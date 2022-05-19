@@ -4,4 +4,4 @@ l=s.split()
 print(l)
 b=set(l)
 c={'a','an','the'}
-print(b-c)
+print("difference of the set:",b-c)

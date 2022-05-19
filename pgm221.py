@@ -2,7 +2,7 @@
 import random
 n=int(input('n=?'))
 a=[random.randint(0,100)for i in range(n)]
-print(a)
+print("list a:",a)
 b=set(a)
-print(len(b))
-print(b)
+print("length of set b",len(b))
+print("set b",b)

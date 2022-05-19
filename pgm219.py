@@ -4,7 +4,7 @@ n=int(input('n=?'))
 a=set()
 for i in range(n):
     a.add(random.randint(0,100))
-print(a)
+print("set",a)
 b=0
 s=9999
 for i in a:
@@ -12,4 +12,3 @@ for i in a:
     s=i if i<s else s
 print('Biggest element:',b)
 print('Smallest element:',s)
-    

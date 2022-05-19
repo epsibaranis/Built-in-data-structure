@@ -4,4 +4,4 @@ l=s.split()
 print(l)
 b=set(l)
 c={'if','that','althouh','eventhugh','but','But','for','unlike','so','yet','in','at','on','of','to','above','he','she','it','him','his','i','yo','her','me'}
-print('remove all the pronouns, prepositions,conjunctions from the sets:',b-c)
+print('remove all the pronouns, prepositions ,conjunctions from the sets:',b-c)

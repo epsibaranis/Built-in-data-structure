@@ -1,4 +1,4 @@
-# coorrect B-part qauestion by extracting givn words from the answer of the student aand  given mark the answer
+# coorrect B-part qauestion by extracting givn words from the answer of the student and  given mark the answer
 s1=input('s1=?')
 l1=s1.split()
 b1=set(l1)
@@ -13,4 +13,4 @@ if l3>=5 and l3<=10:
 if l3>=11 and l3<=20:
     print('8 marks')
 if l3==l4:
-    print('10 marks')
+    print('10 marks') 

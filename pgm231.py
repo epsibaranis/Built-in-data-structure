@@ -13,4 +13,4 @@ a.append(n3)
 a.append(n4)
 a.append(n5)
 d[Rollno]=a
-print(d)
+print("dictionary of biodata",d)

@@ -15,6 +15,7 @@ for i in range(n):
  a.append(n4)
  a.append(n5)
  d[Rollno]=a
-print(d)
+print(" dictionary of n-students biodata",d)
+print(" print it one by one")
 for i in d:
     print(d[i])

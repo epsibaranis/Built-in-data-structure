@@ -11,7 +11,4 @@ print('frequeccy count of the words',d)
 m=input('m=?')
 while m!='in' :
     print(d[m])  
-    m=input('m=?')
-  
-        
-        
+    m=input('m=?')        

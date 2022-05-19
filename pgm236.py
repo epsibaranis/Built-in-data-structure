@@ -8,9 +8,9 @@ b=set(a)
 for i in b:
     c=a.count(i)
     d[i]=c
-print(d)
+print("dictionary",d)
 m=int(input('m=?'))
+print("Frequency count of the numbers in a list")
 while(m!=5):
     print(d[m])
     m=int(input('m=?'))
-      

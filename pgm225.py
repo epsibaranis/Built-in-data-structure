@@ -11,4 +11,4 @@ for i in b:
     d.append(i)
     d.append(c)
     m.append(d)
-print('       countof the the text:', m)
+print('countof the the text:', m)

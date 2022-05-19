@@ -10,9 +10,9 @@ for i in b:
     d.append(i)
     d.append(c)
     m.append(d)
-print('       countof the the text:', m)
+print('countof the the text:', m)
 p1=0
 for i in range(len(m)):
     if m[i][1]>=3:
         p1=i
-        print('     print the words that occur more than 3 times=',m[p1])
+        print('print the words that occur more than 3 times=',m[p1])

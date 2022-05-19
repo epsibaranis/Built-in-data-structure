@@ -1,4 +1,4 @@
-#print stents name,emalid,rollno
+#print students name,emalid,rollno
 d={}
 n=int(input('n=?'))
 for i in range(n):
@@ -15,6 +15,7 @@ for i in range(n):
  a.append(n4)
  a.append(n5)
  d[Rollno]=a
-print(d)
+print(" dictionary of n-students biodata",d)
+print("print students name,emalid,rollno")
 for i in d:
     print(i,d[i][0],d[i][4])

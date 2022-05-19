@@ -2,10 +2,9 @@
 import random
 n=int(input('n=?'))
 a=[random.randint(0,10)for i in range(n)]
-print(a)
+print("list a:",a)
 b=set(a)
-print(len(b))
-print(b)
+print("set b:",b)
 m=[]
 for i in b:
     d=[]
@@ -13,4 +12,4 @@ for i in b:
     d.append(i)
     d.append(c)
     m.append(d)
-print(m)
+print("unique value of the list a",m)

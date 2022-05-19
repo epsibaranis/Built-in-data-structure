@@ -3,7 +3,7 @@ import random
 random.seed(0)
 n=int(input('n=?'))
 a=tuple(random.randint(0,1000)for i in range(n))
-print(a)
+print("Tuble",a)
 b=0
 s=9999
 for i in a:
@@ -11,4 +11,3 @@ for i in a:
    s=i if i<s else s 
 print('biggest element:',b)
 print('smallest element:',s)
-
